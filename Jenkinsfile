@@ -1,7 +1,7 @@
 pipeline {
     agent none
     tools {
-        maven 'mymaven' 
+        maven 'maven3' 
     }
     parameters{
         string(name:'Env',defaultValue:'Test',description:'version to deploy')
