@@ -53,7 +53,7 @@ pipeline {
         }
 
          stage('Package') {
-            # agent {label 'linux_slave'}
+            // agent {label 'linux_slave'}
               agent any
             steps {
                 echo 'Package the code'
